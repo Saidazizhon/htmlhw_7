@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* ehader class-navbar START */
+.navbar{
+    width: 100%;
+    height: 80px;
+    background: #fff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px 60px;
+    gap: 50px;
+}
+.navbar__collection{
+    display: flex;
+    color:#000;
+    gap: 30px;
+    list-style: none;
+    align-items: center;
+    cursor: pointer;
+}
+.navbar__itemen{
+    font-size: 18px;
+}
+.navbar__div{
+    width: 100px;
+    height: 100px;
+}
+.navbar__logosafia{
+    width: 95px;
+    border-radius: 50%;
+    margin: auto;
+    overflow: hidden;
+    cursor: pointer;
+}
+.navbar__logosafia img{
+    width: 95px;
+    height: 95px;
+    object-fit: contain;
+    cursor: pointer;
+}
+.navbar__tel{
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+}
+.navbar__from{
+    cursor: pointer;
+}
+/* header class-navbar END */
+
+
+/* main class-title START */
+
+.text{
+    cursor: pointer;
+}
+.img{
+    margin: 5px;
+}
+.title__text{
+    width: 500px;
+}
+.title__img{
+    width: 500px;
+    border-radius: 50%;
+    overflow: hidden;
+
+}
+.title__img img{
+    object-fit: contain;
+}
